@@ -1,0 +1,10 @@
+{
+  
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "dev": "concurrently \"cd backend && node server.js\" \"cd Ecommerce-react- && npm run dev\""
+}
+  
+}

@@ -1,0 +1,21 @@
+.item {
+    width: 350px;
+}
+
+
+
+.item p {
+    font-size: 40px;
+}
+
+
+
+.item:hover {
+    transform: scale(1.03);
+    transition: 0.2;
+}
+
+.product-link {
+    text-decoration: none;
+    color: inherit;
+}
